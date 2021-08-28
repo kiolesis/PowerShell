@@ -1,5 +1,7 @@
 # PowerShell - Pliki z odcinka "ABC PowerShella pod okiem hakera."
 
+Najpierw przeczytaj plik "cele.txt", a potem wchodź na strony oraz w inne pliki. Powodzenia!
+
 Linki:
 * https://www.base64decode.org/
 * https://docs.microsoft.com/en-us/skypeforbusiness/set-up-your-computer-for-windows-powershell/download-and-install-windows-powershell-5-1
