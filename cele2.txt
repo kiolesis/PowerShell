@@ -1,0 +1,102 @@
+(START)
+          Help Hacker List
+by: Kiolesis.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Autor nie ponosi odpowiedzialności za
+niewłaściwe wykorzystanie informacji
+tutaj zawartych. Wszystkie wiadomości
+zostały umieszczone tylko w celach
+edukacyjnych. Tak wiec proszę nie
+ciągać mnie po sądach i urzędach.
+Robicie wszystko na własną
+odpowiedzialność :)
+                          Kiolesis
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Ten tekst będzie krótszy, ale
+uwzględniłem w nim nieco bardziej
+szczegółowe informacje. Przeczytaj
+przed nim pierwszy text, aby wiedzieć
+o co mniej więcej tutaj chodzi.
+=====================================
+Spis treści:
+
+1. PowerShell pod okiem hakera.
+2. Jak zagrożenia przedostają
+się przez PowerShell?
+3. Firewall łatwy jak masło.
+4. Kto i gdzie stosuje PowerShell?
+5. Zabezpieczenia PowerShell.
+
+1. PowerShell pod okiem hakera.
+Linux oferuje znacznie lepsze oraz
+więcej ilości narzędzi przeznaczonych
+do monitorowania systemu. EDR. Co?
+Brzmi znajomo?
+System EDR daje możliwość zbierania
+informacji z urządzeń końcowych.
+Wywołując zapytanie, w czasie
+rzeczywistym możemy otrzymać
+następujące dane:
+
+-listę uruchomionych procesów,
+-wpisy z Windows Event Log,
+-wpisy z rejestru,
+-przeglądać file system,
+-pobrać memory dump z konkretnego procesu,
+-wyliczyć i porównać hash pliku,
+-oraz dużo więcej za pomocą zapytań
+Powershell oraz innych wbudowanych narzędzi.
+
+(bez sensu ten EDR tutaj wtrąciłem, ale
+PowerShell jest przydatny również do niego.)
+
+pewnie nikt nie wie o co chodzi, dobra,
+nie ważne. Mamy bardzo dużo dzienników
+związanych z PowerShellem. Aplikacja
+Podgląd Zdarzeń oferuje nam właśnie to.
+Aplikacja -> Dzienniki aplikacji i usług ->
+Microsoft -> Windows -> PowerShell.
+
+2. Jak zagrożenia przedostają się przez PowerShell?
+Najczęściej są to exploity oraz ransowmare.
+dobra, nie po to to czytasz. Hakerzy
+próbują obfuskować wszystko co się da,
+tak aby to nie przeszło przez emulatory AV
+oraz AMSI. No. To jest zmora hakerów.
+
+3. Firewall łatwy jak masło.
+Z punktu widzenia autorów wirusów, niewątpliwą
+zaletą Windows Firewalla jest jego API w języku
+Powershell. API to jest teoretycznie bezpieczne,
+ponieważ do jakichkolwiek zmian ustawień potrzebne
+są uprawnienia administratora ale jeśli jednak
+jakiś wirus uzyska takie uprawnienia, może
+wywołać serię wywołań API, które kolejno
+dezaktywują Firewalla tak, aby on nie działał.
+
+4. Kto i gdzie stosuje PowerShell?
+Na serwerach, Azure, niekiedy w szkołach,
+miejsach pracy, urzędach. Tyle tego wymieniać.
+Każdy szanujący się administrator IT z
+pewnością pochwali się tym, że zna
+PowerShella, no nie? Kto administratorowi zabroni?
+Tylko root. Haha.
+
+5. Zabezpieczenia PowerShell.
+W filmie wszystkie kluczowe były...
+Dobra, jesteś ciekawy. rozumiem.
+tez kiedys taki bylem. na pewno
+znasz juz amsi, logi, dzienniki
+systemowe, executionpolicy
+
+Chcesz się uczyć jeszcze? Dobra, ale
+niestety nie kontynuuję tego textu.
+Zobacz moje inne texty na inne tematy.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+To była druga część tego tekstu.
+Dzięki za przeczytanie! Pozdro i
+znowu dobranoc i naura.
+                          Kiolesis
+<><><><><>><><<>><><<><><><><><><><><
