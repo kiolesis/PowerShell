@@ -3,6 +3,16 @@
 by: Kiolesis.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Autor nie ponosi odpowiedzialności za
+niewłaściwe wykorzystanie informacji
+tutaj zawartych. Wszystkie wiadomości
+zostały umieszczone tylko w celach
+edukacyjnych. Tak wiec proszę nie
+ciągać mnie po sądach i urzędach.
+Robicie wszystko na własną
+odpowiedzialność :)
+                          Kiolesis
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 faq
 Co uzyskasz po obejrzeniu tego wideo?
 -będziesz wiedział, jakie funkcje
@@ -212,7 +222,9 @@ działania kodu w określonym
 3. Będzie mógł zrobić własne
 narzędzie hakerskie.
 4. Tworzenie wirusów komputerowych.
-Z tego lepiej zrezygnuj.
+Z tego lepiej zrezygnuj. To mówi
+Etyka Hakera. Serio, nie kłamię,
+wsm nie mam po co kłamać.
 
 1203124120423951023591023591230512353
 Inne treści oraz pliki.
@@ -236,6 +248,16 @@ i do czego one służą w "used.list".
 7. eksperymentuj tak dlugo, az
 powiesz "lekcja zakonczona sukcesem",
 gratulacje.
+
+1234123412304423001230404231040123032
+Ten tekst mnie zaciekawił! Mogę
+liczyć na więcej tego tekstu?
+-Czego? PowerShella? W sieci masz
+tego pełno. Jedynie, że nie wierzysz,
+że jestem hakerem i pentesterem?
+Dobra, nie bądź samolub. Sprawdź,
+czy już dodałem nowy plik:
+"cele2.txt".
 
 -------------------------------------
 
