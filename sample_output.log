@@ -1,0 +1,13 @@
+## Plik ConsoleHost_History.txt
+echo hej
+echo czesc
+cls
+Start-Transcript
+echo hej2
+Start-Transcript
+echo hej4
+Stop-Transcript
+cls
+Get-ExecutionPolicy
+Set-ExecutionPolicy
+cls
