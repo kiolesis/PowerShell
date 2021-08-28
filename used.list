@@ -1,0 +1,7 @@
+Get-Host - Pokaż informacje o PowerShellu
+Get-ExecutionPolicy - Uzyskaj informację o używanej restrykcji
+Set-ExecutionPolicy - Zarządzaj restrykcjami
+Start-Transcript - Start funkcji logowania
+Stop-Transcript - Stop funkcji logowania
+Host-Write - Wypisz na ekranie tekst
+echo $decrypted - Wypisz na ekranie tekst (w tym przypadku zmienną)
