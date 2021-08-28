@@ -1,0 +1,248 @@
+(START)
+          Help Hacker List
+by: Kiolesis.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+faq
+Co uzyskasz po obejrzeniu tego wideo?
+-będziesz wiedział, jakie funkcje
+bezpieczeństwa posiada PowerShell.
+-dowiesz się, jak działa
+transkrypcja PowerShellowska.
+-dowiesz się, jak hakerzy
+wykorzystują PowerShell do swoich
+działań.
+-Wiesz, jak napisać zobfuskowany
+skrypt oraz go zobfuskować.
+
+bla bla bla, dobra nieważne.......
+
+4012428312083459123571283095712089334
+dlaczego powershell?
+
+odpowiedz jest prosta. dlatego,
+poniewaz jest w kazdym systemie
+windows i łatwo można eskalować
+uprawnienia w nim, aby wyłączyć
+windows defendera oraz firewall.
+mozna ukryc w zobfuskowanym
+makro, np. w outlooku makra
+mają malo rzeczy, jakie daje vba.
+hakerzy sa cwani? co nie? widza
+ze jak nie korzystasz z powershella,
+kradną go. widza, ze nie korzystasz
+z antywirusa, wylaczaja go. chodzi mi
+tutaj o to, ze przecietny uzytkownik
+nie wklada zbyt wiele w zabezpiecz.,
+ponieważ ma to w !@#%@1. dobra nie
+wazne, nie korzystaj na codzień z
+powershella? no akurat nie musieli
+tego wiedziec, gdyz przez niego
+mozna bardzo latwo wylaczyc win def.
+oraz win firewall. nic prostrzego?
+jedno uprawnienie, kilka komend?
+no no no a co jesli no? co to jakies
+faq? to ma byc tekst dla lamerow
+a nie. skupmy sie na jednej rzeczy,
+po co powershell hakerowi na twoim
+urzadzeniu. !@#$!@#@#$!@#$ na twoim
+@$@@# na twoim @#$@# urzadzeniu. @#$
+wlasnie! ty za to odpowiadasz, jak
+bardzo zabezpieczysz powloke
+systemowa a nie jak haker ominie
+firewalla przez korzystanie z base64
+oraz tego glupiego xor.
+
+1230412312051212358123059123059123050
+Omijanie firewalla?
+Pobieranie zaszyfrowanego pliku
+przez base64 (jesli nie obsluguje
+odszyfrowywania wlasnie base64) plus
+jakis xor. teraz hackerzy tworza
+wirusy zobfuskowane, ktore skladaja
+sie z wielu czesci, co przeszkadza
+w ich analizie oraz identyfikacji.
+podobnie jak z narzedziami do
+modyfikacji binarek oraz ich
+sygnatur, np. hyperion, no nie?
+
+1032412395012390591230591230512002234
+Wyłaczanie windows defendera.
+nie gadaj:
+1. uprawnienia lub eskalacja,
+zainteresuj sie porsze mimikatzem
+2. polecenia dezaktywujace
+czego szukasz?
+masz internet od tego, rusz glowe
+i zacznij szukac a nie.
+3. przepis gotowy
+
+1230491235123509123591092368192638202
+Co warto wiedziec?
+obfuskacja:
+masz taki kod programu:
+
+# Write-Host Pwnd
+
+zmień go na taki:
+
+#function SuperDecrypt
+#{
+#    param($script)
+#    $bytes = [Convert]::FromBase64String($script)
+#
+#    ## XOR "encryption"
+#    $xorKey = 0x42
+#    for($counter = 0; $counter -lt $bytes.Length; $counter++)
+#    {
+#        $bytes[$counter] = $bytes[$counter] -bxor $xorKey
+#    }
+#    [System.Text.Encoding]::Unicode.GetString($bytes)
+# }
+#
+# $decrypted = SuperDecrypt "FUIwQitCNkInQm9CCkItQjFCNkJiQmVCEkI1QixCJkJlQg=="
+# Invoke-Expression $decrypted
+
+zwroci to samo?
+no to prawda. nie poddawaj sie,
+ulepsz go jeszcze bardziej. no jak?
+jeszcze sie pytasz? no mozesz ten
+tekst zaszyfrowac, w sensie te
+wszystkie funkcje, ale to za duzo
+roboty jak na ten tekst, który pisze
+o 23:50.
+
+jest teraz taki:
+
+#function d
+#{
+#    param($d)
+#    $bytes = [Convert]::FromBase64String($d)
+#
+#    ## XOR "encryption"
+#    $xorKey = 0x42
+#    for($counter = 0; $counter -lt $bytes.Length; $counter++)
+#    {
+#        $bytes[$counter] = $bytes[$counter] -bxor $xorKey
+#    }
+#    [System.Text.Encoding]::Unicode.GetString($bytes)
+# }
+#
+# $d = d "FUIwQitCNkInQm9CCkItQjFCNkJiQmVCEkI1QixCJkJlQg=="
+# Invoke-Expression $d
+
+jeszcze jest o wiele kombinacji, ale
+pokazalem ci tylko te z nazwami.
+mysle, ze sie domyslasz, o ktore
+mi teraz chodzi. dobra, nie tworz
+wirusow. etyka hakera mowi, aby nie
+tworzyl wirusow. przynajmniej nie
+podsylaj ich nikomu. zaprezentowane
+tylko w celach edukacyjnych.
+
+1020301204912304120349123051230526123
+Co to XOR?
+xor to po prostu algorytm.
+(pomiń resztę, jeśli nie jesteś
+na żadnych studiach prosze :) )
+jeśli ktoś odbył już naukę na
+studiach, z pewnoscia profil
+matematyczny z pewnością spotkał się
+z definicją "alternatywa rozłączna".
+dobra, ale nie trzeba iść na studia
+jeśli chce się być hackerem. lolz
+logiczne? pozdro dla kumatych i tych
+co myśleli, że napiszą maturę,
+pójdą na studia informatyczne i
+zostaną hackerami. zostali lamerami.
+w skrócie, nie musisz tego czytac
+ale zostalo tutaj przedstawione
+wlasnie niektore zachowania osob
+studiujacych. raczej powinni sie
+uczyc. wlasnie, skad brac wiedze?
+ucz sie, nie bój się pytać,
+rozmawiaj, uczestnicz na forum.
+skup sie, w sieci pelno tego.
+
+Yes, of course.
+
+1230412351230912350961026902369091263
+Co to Base64?
+rodzaj kodowania transportowego
+służący do kodowania ciągu bajtów za
+pomocą ciągu znaków. Kodowanie to
+przypisuje 64 wybranym znakom.
+Ciąg bajtów poddawany kodowaniu
+dzielony jest na grupy po 3 bajty.
+Ponieważ bajt ma 8 bitów, grupa
+3 bajtów składa się z 24 bitów.
+
+1203510125912305396019236091230691266
+IDE dla PowerShell?
+jest dostepny powershell ise. ma
+jakies dodatki dla azure. samo ise
+jednak ma bardzo rozbudowany
+interfejs jak i zestaw narzedzi,
+jakie nam oferuje.
+
+1014192102421049041294029029123041230
+Ufam Wikipedii.
+Według Wikipedii haker to osoba,
+która odznacza się bardzo dużą wiedzą,
+praktycznymi umiejętnościami
+informatycznymi, która identyfikuje
+się ze społecznością hakerską.
+Hakerzy odznaczają się bardzo dobrą
+orientacją w Internecie, znajomością
+wielu języków programowania, a także
+świetną znajomością systemów
+operacyjnych, między innymi Windows
+lub Linux.
+
+1293421355123320940912340123049091234
+Po co hakerowi programowanie?
+1. Będzie mógł poznać, jak działają
+inne narzędzia hakerskie, które są
+open source, przez co może je
+ulepszyć i poznać tajniki ich
+działania.
+2. Będzie zaznajomiony z zasadami
+działania kodu w określonym
+środowisku oraz systemie.
+3. Będzie mógł zrobić własne
+narzędzie hakerskie.
+4. Tworzenie wirusów komputerowych.
+Z tego lepiej zrezygnuj.
+
+1203124120423951023591023591230512353
+Inne treści oraz pliki.
+Teraz krótki instruktaż w celu
+zrozumienia mojego kursu "ABC
+PowerShella pod okiem hakera".
+1. Obejrz film i spróbuj zrozumieć
+to co mówię (nagrywać "pińćset" razy)
+. w nim jest również praktyka, co
+na pewno docenisz.
+2. przeczytaj ten tekst, nie musisz
+calego, jak uwazasz no nie?
+3. Praktykuj, wpisz ten eicar w okno
+konsoli, zobacz co sie stanie.
+4. Weź plik obfuscated.ps1 i skopiuj
+z niego tekst i wklej w PowerShell.
+Pobaw się nim i eksperymentuj.
+5. Zobacz, jakim komend używałem
+i do czego one służą w "used.list".
+6. Zobacz, gdzie masz folder z logami
+7. eksperymentuj tak dlugo, az
+powiesz "lekcja zakonczona sukcesem",
+gratulacje.
+
+-------------------------------------
+
+dobra, bo tak nawijam i nawijam
+ciągle nie tylko o tym PowerShellu.
+Dobranoc i naura. przede wszystkim
+powodzenia!
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+pozdrawiam, kiolesis
+(THE END)
