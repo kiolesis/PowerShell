@@ -1,4 +1,4 @@
-# PowerShell - Pliki z odcinka "ABC PowerShella pod okiem hakera."
+# PowerShell - Pliki z "ABC PowerShella pod okiem hakera."
 
 Najpierw przeczytaj plik "cele.txt", a potem wchodź na strony oraz w inne pliki. Powodzenia!
 
